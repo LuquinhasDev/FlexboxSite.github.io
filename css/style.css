@@ -93,4 +93,26 @@ article p {
         align-items: center;         /* Centraliza os links */
         gap: 10px;                   /* Espaço entre links */
     }
+
+    ul li {
+        background-color: rgba(0, 0, 0, 0.774);
+        padding: 0px 15px 0px;
+    }    
+
+    section {
+        flex-direction: column; /* Muda de linha para coluna */
+        align-items: center;    /* Centraliza os cards */
+    }
+
+    article {
+        max-width: 90%;         /* Faz cada card ocupar quase toda a largura */
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    header a {
+        font-size: 20px;
+    }
 }
