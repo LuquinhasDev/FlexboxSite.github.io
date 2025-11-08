@@ -81,7 +81,6 @@ article p {
    ========================================================== */
 @media (max-width: 500px) {
 
-    /* O header já é flex, mas aqui garantimos o comportamento no mobile */
     header {
         align-items: center;         /* Centraliza o conteúdo */
         justify-content: space-between;  
