@@ -90,14 +90,13 @@ article p {
     /* O menu vira uma coluna */
     nav ul {
         flex-direction: column;      /* Itens do menu um embaixo do outro */
-        align-items: center;         /* Centraliza os links */
         gap: 10px;                   /* Espaço entre links */
     }
 
     ul li {
-        background-color: rgba(0, 0, 0, 0.774);
-        padding: 0px 15px 0px;
-    }    
+        background-color: rgba(95, 95, 95, 0.959);
+        padding: 0px 15px 0px 1px;
+    }
 
     section {
         flex-direction: column; /* Muda de linha para coluna */
@@ -113,6 +112,10 @@ article p {
     }
 
     header a {
+        font-size: 40px;
+    }
+
+    li a {
         font-size: 20px;
     }
 }
